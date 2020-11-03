@@ -2,16 +2,16 @@
 class Eschargo < Formula
   desc "Escape Regex Metacharacters, made in Go."
   homepage ""
-  version "0.3.5"
+  version "0.4.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/p-rs/eschargo/releases/download/v0.3.5/eschargo_0.3.5_darwin_amd64.tar.gz"
-    sha256 "495a75c9827a349728cbaa6dfa9e87ae117d2f480102fea598334e2a359b269e"
+    url "https://github.com/p-rs/eschargo/releases/download/v0.4.0/eschargo_0.4.0_darwin_amd64.tar.gz"
+    sha256 "c26d74e2ead58c1ba36a1bc3e939f124d691d9419f701bfd8c32643e522a6ef4"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/p-rs/eschargo/releases/download/v0.3.5/eschargo_0.3.5_linux_amd64.tar.gz"
-      sha256 "63f159d6c31cad7a39190d16e8ffc1ac9c5ea534c54281f3d70bb8b3c00d44a2"
+      url "https://github.com/p-rs/eschargo/releases/download/v0.4.0/eschargo_0.4.0_linux_amd64.tar.gz"
+      sha256 "754a95ed0499b514d44235016709b16763f0ca6cc137cc9fc7fd71e24eb27740"
     end
   end
 
